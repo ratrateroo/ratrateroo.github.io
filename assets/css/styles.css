@@ -1,0 +1,17 @@
+.jumbotron.hero-technology {
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+}
+
+.profilepic {
+  /*border-radius:50% 50%;*/
+}
+
+.col.needbr {
+  border-radius:15px;
+}
+
+.text-right.needbr {
+  border-radius:10px;
+}
+
