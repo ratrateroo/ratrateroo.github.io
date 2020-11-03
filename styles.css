@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quantico', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: 570px;
+}
+
+.o-main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(26, 24, 24);
+}
+
+.c-biggest-text {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: antiquewhite;
+  font-size: 3rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.c-big-text {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  font-size: 2rem;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.c-small-text {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  color: antiquewhite;
+}
+
+.c-smallest-text {
+  height: 15vh;
+  display: flex;
+  width: 95%;
+  color: white;
+  font-size: 0.8rem;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .c-biggest-text {
+    font-size: 1.8rem;
+  }
+
+  .c-big-text {
+    font-size: 1.5rem;
+  }
+
+  .c-small-text {
+    font-size: 0.9rem;
+  }
+
+  .c-smallest-text {
+    font-size: 0.7rem;
+  }
+}
